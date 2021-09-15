@@ -59,6 +59,15 @@
     font-weight: bold;
 }
 
+#hamburger-img
+{
+    height: 50px;
+    width: 50px;
+    float: right;
+    right: 10px;
+    background-color: white;
+    display: none;
+}
 
 /* MAIN SECTION */
 
@@ -84,7 +93,7 @@
 
 #container-content
 {
-    margin: auto 50px;
+    margin: auto 0px;
 }
 #container-content h1
 {
@@ -201,7 +210,7 @@
 {
     display: flex;
   margin: auto;
-  width: 80vw;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -220,7 +229,7 @@ font-size: 50px;
     content: "";
     position: absolute;
     background: #05004f;
-    height: 650px;
+    height: 550px;
     width: 100%;
     z-index: -1;
     opacity:0.89;
@@ -234,9 +243,10 @@ font-size: 50px;
 {
     background-color: #c5c1e721;
     border-radius: 20px;
-    margin: 80px 20px;
-    height: 300px;
-    padding: 70px;
+    margin: 16px 20px;
+    /* height: 300px; */
+    width: 100%;
+    padding: 50px;
     font-size: 1.5rem;
     color: #9eacb7;
 }
@@ -265,7 +275,15 @@ font-size: 50px;
 {
     display: flex;
     justify-content: center;
+    margin: 80px 0px 0px 0px;
 }
+
+#connect::before
+{
+    content: "";
+    height: 400px;
+}
+
 #img-work4
 {
     height: 300px;
@@ -279,7 +297,7 @@ font-size: 50px;
 
 .para-connect
 {
-    margin: 50px;
+    /* margin: 50px; */
     font-size: 1.5rem;
     padding: 50px;
 }

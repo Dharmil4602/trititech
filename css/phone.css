@@ -1,0 +1,188 @@
+@media (max-width: 1340px)
+{
+       #testimonial::before
+       {
+        left:0px;
+        content: "";
+        position: absolute;
+        background: #05004f;
+        height: 1060px;
+        width: 100%;
+        z-index: -1;
+        opacity:0.89;
+       }
+
+       .testimonials
+       {
+           flex-direction: column;
+           margin: auto;
+       }
+
+       .testimonial-common
+       {
+           /* margin: 0px auto; */
+           width: 80vw;
+       }
+}
+
+@media (max-width: 1260px)
+{
+    #list
+    {
+        display: none;
+    }
+
+    #hamburger-img
+    {
+        display: block;
+        position: absolute;
+        float: right;
+        top: 30px;
+        /* right: 10px; */
+    }
+}
+
+@media (max-width: 1100px)
+{
+
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .container::before
+    {
+        left:0px;
+    content: "";
+    position: absolute;
+    background: #05004f;
+    height: 700px;
+    top:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    }
+
+    #container-content
+    {
+        margin: auto;
+    }
+
+    #office-img
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1099px)
+{
+    #office-img
+    {
+        height: 300px;
+        width: 300px;
+    }
+
+    .container::before
+    {
+        left:0px;
+    content: "";
+    position: absolute;
+    background: #05004f;
+    height: 800px;
+    top:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    }
+
+
+    #testimonial::before
+    {
+        left:0px;
+        content: "";
+        position: absolute;
+        background: #05004f;
+        height: 1200px;
+        width: 100%;
+        z-index: -1;
+        opacity:0.89;
+    }
+
+    .work1
+    {
+        flex-direction: column;
+    }
+
+    #work1-img
+    {
+      margin: auto;
+    }
+
+    .para-work1
+    {
+        padding: 10px 20px;
+        margin: 10px auto;
+    }
+
+    .work2
+    {
+        flex-direction: column;
+    }
+
+    #work2-img
+    {
+      margin: auto;
+    }
+
+    .para-work2
+    {
+        padding: 10px 20px;
+        margin: 10px auto;
+    }
+
+    .work3
+    {
+        flex-direction: column;
+    }
+
+    #work3-img
+    {
+      margin: auto;
+    }
+
+    .para-work3
+    {
+        padding: 10px 20px;
+        margin: 10px auto;
+    }
+
+    #connect
+    {
+        flex-direction: column;
+    }
+
+    #connect::before 
+    {
+        height: 100px;
+    }
+
+
+}
+
+@media (max-width: 375px)
+{
+    #testimonial::before
+       {
+        left:0px;
+        content: "";
+        position: absolute;
+        background: #05004f;
+        height: 1525px;
+        width: 100%;
+        z-index: -1;
+        opacity:0.89;
+       }
+}
