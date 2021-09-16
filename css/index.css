@@ -130,8 +130,9 @@
 
 /* #work::before
 {
-    content: "";
     background-color: aquamarine;
+    left: 0px;
+    content: "";
     height: 500px;
     top: auto;
     width: 100%;
