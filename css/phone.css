@@ -250,7 +250,7 @@
     }
 }
 
-@media (min-width: 401px) and (max-width: 650px)
+@media (min-width: 400px) and (max-width: 620px)
 
 {
     #logo
@@ -272,17 +272,34 @@
     z-index: -1;
     opacity:0.89;
     }
-        #testimonial::before
-           {
+       
+    #testimonial::before
+          {
             left:0px;
             content: "";
             position: absolute;
             background: #05004f;
-            height: 1000px;
+            height: 1190px;
             width: 100%;
             z-index: -1;
             opacity:0.89;
-           }
+          }
+
+           
+    .h-testimonial
+    {
+        font-size: 35px;
+    }
+
+    .testimonial-common h1
+    {
+        font-size: 25px;
+    }
+
+    .testimonial-common h2
+    {
+        font-size: 20px;
+    }
 }
 
 
@@ -321,6 +338,21 @@
         z-index: -1;
         opacity:0.89;
        }
+
+       .h-testimonial
+    {
+        font-size: 35px;
+    }
+
+    .testimonial-common h1
+    {
+        font-size: 25px;
+    }
+
+    .testimonial-common h2
+    {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 610px)
