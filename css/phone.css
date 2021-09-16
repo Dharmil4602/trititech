@@ -212,7 +212,7 @@
 }
 
 
-@media (min-width: 800px) and (max-width: 1099px)
+@media (min-width: 620px) and (max-width: 1099px)
 {
     #logo
     {
@@ -294,11 +294,17 @@
     .testimonial-common h1
     {
         font-size: 25px;
+        /* margin-top: 15px; */
     }
 
     .testimonial-common h2
     {
         font-size: 20px;
+    }
+
+    #connect::before
+    {
+        height: 200px;
     }
 }
 
