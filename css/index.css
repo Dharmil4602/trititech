@@ -139,11 +139,6 @@
     z-index: -1;
 } */
 
-#work
-{
-    /* background-color: rgb(75, 141, 199); */
-}
-
 .work1
 {
     display: flex;
@@ -281,6 +276,7 @@ font-size: 50px;
 #connect::before
 {
     content: "";
+    position: relative;
     height: 400px;
 }
 
@@ -304,6 +300,11 @@ font-size: 50px;
 
 /* FOOTER */
 
+#footer
+{
+    display: flex;
+    flex-direction: column;
+}
 #footer::before
 {
     /* left:0px; */
@@ -356,7 +357,6 @@ font-size: 50px;
 {
     text-align: center;
     font-size: 30px;
-    margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: wheat;
 }
